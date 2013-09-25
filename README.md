@@ -7,11 +7,16 @@ You can find here a compiled binary (exe) or the Perl source code.
 
 # Usage
 
-> Usage : url_service_action -u <url> -p <pattern> -s <service> -a <action> [-h]<br />
+> Usage : url_service_action -u <url> -p <pattern> -s <service> -a <action> -o <command> [-n] [-f] [-h]<br />
 >         -u : set the URL you want to check<br />
 >         -p : set the required search pattern<br />
+>         -n : reverse the query (if search is not found)<br />
 >         -s : give the Windows service name to do the action<br />
 >         -a : which action do you want to perform (start, restart or stop)<br />
+>         -e : launch one or multiple pre commands when action is finished<br />
+>         -o : launch one or multiple post commands when action is finished<br />
+>         -f : force post command execution even if service action failed<br />
+
 
 # Compil the binary on Windows
 
