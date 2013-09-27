@@ -34,7 +34,7 @@ sub help
     print "\t-n : reverse the query (if search is not found)\n";
     print "\t-s : give the Windows service name to do the action\n";
     print "\t-a : which action do you want to perform (start, restart or stop)\n";
-    print "\t-e : launch one or multiple pre commands when action is finished\n";
+    print "\t-e : launch one or multiple pre commands before the action start\n";
     print "\t-o : launch one or multiple post commands when action is finished\n";
     print "\t-f : force post command execution even if service action failed\n";
     exit(1);

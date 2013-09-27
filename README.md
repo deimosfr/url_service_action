@@ -13,7 +13,7 @@ You can find here a compiled binary (exe) or the Perl source code.
 >         -n : reverse the query (if search is not found)<br />
 >         -s : give the Windows service name to do the action<br />
 >         -a : which action do you want to perform (start, restart or stop)<br />
->         -e : launch one or multiple pre commands when action is finished<br />
+>         -e : launch one or multiple pre commands before the action start<br />
 >         -o : launch one or multiple post commands when action is finished<br />
 >         -f : force post command execution even if service action failed<br />
 
